@@ -31,6 +31,30 @@ a:hover {
     margin: 30px auto;
 }
 
+#sidebar {
+  background-color: #666563;
+  position: fixed;
+  width: 200px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.list-center {
+  margin-top: 50px;
+  padding-left: 0px;
+  list-style: none;
+  text-align: center;
+}
+
+.list-center li {
+  margin: 0 0 50px 0;
+}
+
+#page-content {
+  margin-left: 300px;
+}
+
 .card {
     background: white;
     padding: 20px;
@@ -73,7 +97,6 @@ a:hover {
     height: 300px;
     border: 5px solid #94D8BE;
   }
-
 
 
 
